@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tinyNotes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95ef3ae7de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="banner">
+        tiny<span class="bold">Notes</span>
+        
+        <div class="custom-shape-divider-top-1649038950">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+    </header>
+    <main class="container">
+        <div class="content">
+            <div class="control-panel">
+                <div class="title-container">
+                    <div class="title-text bold">Title:</div> 
+                    <textarea class="title" cols="10" rows="1"></textarea>
+                </div>
+                <div class="button-container">
+                    <button class="plus">
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </button>
+                    <button class="delete">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="text-content">
+                <textarea class="text" spellcheck="false"></textarea>
+            </div>
+        </div>
+    </main>
+    <div class="notes-container">
+    </div>
+    <div class="show">
+        <button class="show-button">
+            <i class="fa-solid fa-note-sticky"></i>
+        </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
